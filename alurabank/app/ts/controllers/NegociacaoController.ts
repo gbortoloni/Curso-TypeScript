@@ -53,7 +53,7 @@ export class NegociacaoController{
     }
 
     @throttle()
-    importaDados() {
+    importarDados() {
 
         this._service
             .obterNegociacoes(res => {
